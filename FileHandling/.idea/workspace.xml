@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd3c4c81-d45a-405b-9aa2-906a1cfc636b" name="Changes" comment="Pushing 'file handling' files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/OOP Problems - 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/library_book_management/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/library_book_management/Fictional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/library_book_management/Magazine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/library_book_management/MainLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/library_book_management/NonFictional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/restaurant_menu_simulation/Burger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/restaurant_menu_simulation/FoodItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/restaurant_menu_simulation/OrderFood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/restaurant_menu_simulation/Pasta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/restaurant_menu_simulation/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/student_course_enrollment_simulation/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/student_course_enrollment_simulation/CourseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/student_course_enrollment_simulation/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/student_course_enrollment_simulation/StudentEnrollment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/student_course_enrollment_simulation/StudentEnrollment.jjava.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Parking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Toll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/vehicle_toll_management_system/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/zoo_animal_management_system/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/zoo_animal_management_system/Elephant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/zoo_animal_management_system/Lion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/zoo_animal_management_system/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/bin/zoo_animal_management_system/Monkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/library_book_management/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/library_book_management/Fictional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/library_book_management/Magazine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/library_book_management/MainLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/library_book_management/NonFictional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/restaurant_menu_simulation/Burger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/restaurant_menu_simulation/FoodItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/restaurant_menu_simulation/OrderFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/restaurant_menu_simulation/Pasta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/restaurant_menu_simulation/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/student_course_enrollment_simulation/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/student_course_enrollment_simulation/CourseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/student_course_enrollment_simulation/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/student_course_enrollment_simulation/StudentEnrollment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/vehicle_toll_management_system/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/vehicle_toll_management_system/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/vehicle_toll_management_system/Toll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/vehicle_toll_management_system/Truck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/vehicle_toll_management_system/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/zoo_animal_management_system/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/zoo_animal_management_system/Elephant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/zoo_animal_management_system/Lion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/zoo_animal_management_system/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeLabzOOPs2/src/zoo_animal_management_system/Monkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/bin/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/bin/ElectricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/bin/FuelCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/src/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/src/ElectricCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cars/src/FuelCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindMissingNumberInAP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindSubarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logical Java Problem Statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/dynamicArray/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/dynamicArray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/dynamicArray/bin/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/dynamicArray/src/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoAdjacentSame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberIsReversible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP Java Problem Statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Print1To100Streams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Print1to100WithoutLoopsOrRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatingPatternInAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReverseOnlyDigitsInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondHighestNumberWithoutSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValidateEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filtered_transactions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reversed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="32AzDwlTWzmiqUqePenJ2bXBth5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\OneDrive - PESUNIVERSITY\Desktop\Sumukha\Bridge-Practice\FileHandling" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadAndDisplay">
+    <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.count_words_in_file.CountWords" />
+      <module name="FileHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.count_words_in_file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargeFileProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.large_data_file_processing.LargeFileProcessing" />
+      <module name="FileHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.large_data_file_processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadAndDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.read_and_display_file_content.ReadAndDisplay" />
+      <module name="FileHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.read_and_display_file_content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseFileContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.reverse_file_content.ReverseFileContent" />
+      <module name="FileHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.reverse_file_content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteUserInout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.write_user_input_to_a_file.WriteUserInout" />
+      <module name="FileHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.write_user_input_to_a_file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadAndDisplay" />
+        <item itemvalue="Application.LargeFileProcessing" />
+        <item itemvalue="Application.ReverseFileContent" />
+        <item itemvalue="Application.CountWords" />
+        <item itemvalue="Application.WriteUserInout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd3c4c81-d45a-405b-9aa2-906a1cfc636b" name="Changes" comment="" />
+      <created>1756878049748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756878049748</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Pushing 'file handling' files">
+      <created>1756969503588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756969503588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pushing 'file handling' files">
+      <created>1756970212572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756970212572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pushing 'file handling' files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing 'file handling' files" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

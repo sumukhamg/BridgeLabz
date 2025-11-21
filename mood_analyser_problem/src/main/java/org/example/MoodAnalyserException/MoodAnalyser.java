@@ -32,16 +32,6 @@ public class MoodAnalyser {
                 );
             }
 
-//        }catch (MoodAnalysisException e) {
-//            throw new MoodAnalysisException(
-//                    ExceptionType.NULL_MOOD,
-//                    "Mood cannot be NULL"
-//            );
-//        }
-//        catch (NullPointerException e) {
-//            System.out.println(e.getMessage());
-//
-//        }
         return mood;
     }
 }

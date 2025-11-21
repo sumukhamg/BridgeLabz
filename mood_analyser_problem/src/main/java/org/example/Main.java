@@ -7,10 +7,12 @@ import org.example.MoodAnalyserException.MoodAnalyser;
 public class Main {
     public static void main(String[] args) {
         try {
-            MoodAnalyser analyser = new MoodAnalyser("I am in No Mood");
+            MoodAnalyser analyser = new MoodAnalyser(null);
             System.out.println(analyser.analyseMood());
         } catch (MoodAnalysisException e) {
             System.out.println(e.type + ": " + e.getMessage());
+        } catch(NullPointerException e) {
+            System.out.println("Caught an Excpetion -> " + e.getMessage());
         }
     }
 }

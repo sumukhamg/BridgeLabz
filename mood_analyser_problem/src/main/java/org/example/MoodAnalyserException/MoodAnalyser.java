@@ -5,41 +5,43 @@ import org.example.MoodAnalysisException;
 public class MoodAnalyser {
 
     private String message;
-
-    // Default constructor
-    public MoodAnalyser() { }
-
     // Parameterized constructor
     public MoodAnalyser(String message) {
         this.message = message;
     }
-
-    // UC1, Refactor, UC2, UC3 implemented here
+    // Method checks edge cases and also give Respective Moods and also
     public String analyseMood() throws MoodAnalysisException {
-        try {
-            if (message.length() == 0) {
-                // Empty mood
+        String mood = "";
+//        try {
+            if (message.contains("Sad") || message.contains("SAD") || message.contains("sad")) {
+                mood = "Sad";
+            } else if(message.contains("happy") || message.contains("Happy") || message.contains("HAPPY")) {
+                mood = "Happy";
+            }
+            // If neither above condition worked, The message should be empty or invalid.
+            // below else block is used to throw exception based on the edge cases
+            else if(message.isEmpty()) {
                 throw new MoodAnalysisException(
                         ExceptionType.EMPTY_MOOD,
                         "Mood cannot be EMPTY"
                 );
             }
-
-            if (message.contains("Sad") || message.contains("SAD") || message.contains("sad")) {
-                return "SAD";
-            } else if(message.contains("happpy") || message.contains("Happy") || message.contains("HAPPY")) {
-                return "HAPPY";
-            }
             else{
-                return "Invalid Mood";
+                throw new MoodAnalysisException(
+                        ExceptionType.INVALID_MOOD, "Mood is invalid"
+                );
             }
 
-        } catch (NullPointerException e) {
-            // NULL Mood
-            throw new MoodAnalysisException(
-                    ExceptionType.NULL_MOOD,
-                    "Mood cannot be NULL"
-            );
-        }
+//        }catch (MoodAnalysisException e) {
+//            throw new MoodAnalysisException(
+//                    ExceptionType.NULL_MOOD,
+//                    "Mood cannot be NULL"
+//            );
+//        }
+//        catch (NullPointerException e) {
+//            System.out.println(e.getMessage());
+//
+//        }
+        return mood;
     }
 }

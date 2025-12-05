@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    const isAbsent = 0;
+    let empCheck = Math.floor(Math.random() * 10) % 3;
+    if (empCheck == isAbsent) {
+      console.log("Employee is Absent");
+      return;
+    } else {
+      console.log("Employee is Present");
+    }
+
+    const is_part_time = 1;
+    const is_full_time = 2;
+    const part_time_hours = 4;
+    const full_time_hours = 8;
+    const wage_per_hour = 20;
+
+    let empHrs = 0;
+    // switch (empCheck) {
+    //   case is_part_time:
+    //     empHrs = part_time_hours;
+    //     break;
+    //   case is_full_time:
+    //     empHrs = full_time_hours;
+    //     break;
+    //   default:
+    //     empHrs = 0;
+    // }
+
+    let empWage = empHrs * wage_per_hour;
+    console.log("Employee Wage: " + empWage);
+
+    function getWorkingHours(empCheck) {
+      switch (empCheck) {
+        case is_part_time:
+          return part_time_hours;
+        case is_full_time:
+          return full_time_hours;
+        default:
+          return 0;
+      }
+    }
+
+    empHrs = getWorkingHours(empCheck);
+
+    empWage = empHrs * wage_per_hour;
+    console.log("Employee Wage: " + empWage);
+  </script>
+</html>
